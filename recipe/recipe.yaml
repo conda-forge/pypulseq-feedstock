@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pypulseq
-  version: 1.4.2.post1
+  version: "1.5.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pypulseq-${{ version }}.tar.gz
-  sha256: 76499346934d01578cfdd53e30438ae59d3bb17965a09d963621fb4642423059
+  sha256: 81703a55f43c739d6bdd6ae694ba7c8e17811baaa25e06547b67cd2d1170d5fd
 
 build:
   number: 0
@@ -19,7 +19,7 @@ build:
 
 requirements:
   host:
-    - python ${{ python_min }}.* 
+    - python ${{ python_min }}.*
     - setuptools >=61.0
     - pip
   run:
