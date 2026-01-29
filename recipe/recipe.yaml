@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pypulseq
-  version: "1.5.0"
+  version: "1.5.0.post1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pypulseq-${{ version }}.tar.gz
-  sha256: 81703a55f43c739d6bdd6ae694ba7c8e17811baaa25e06547b67cd2d1170d5fd
+  sha256: 4b7f84906b7ca95fc602159b16af73973ca5e1e251b7e5070fa094ada3ec1059
 
 build:
   number: 0
@@ -38,7 +38,8 @@ tests:
 
 about:
   summary: Pulseq in Python
-  license: AGPL-3.0-only
+  license: MIT
+  license_family: MIT
   license_file: LICENSE
   homepage: https://github.com/imr-framework/pypulseq
   documentation: https://pypulseq.readthedocs.io/
