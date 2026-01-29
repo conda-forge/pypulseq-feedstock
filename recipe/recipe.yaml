@@ -38,7 +38,8 @@ tests:
 
 about:
   summary: Pulseq in Python
-  license: AGPL-3.0-only
+  license: MIT
+  license_family: MIT
   license_file: LICENSE
   homepage: https://github.com/imr-framework/pypulseq
   documentation: https://pypulseq.readthedocs.io/
