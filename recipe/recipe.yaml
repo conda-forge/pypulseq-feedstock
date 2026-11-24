@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pypulseq
-  version: "1.5.0.post1"
+  version: "1.5.0.post2"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pypulseq-${{ version }}.tar.gz
-  sha256: 4b7f84906b7ca95fc602159b16af73973ca5e1e251b7e5070fa094ada3ec1059
+  sha256: 8854ff1d1057a11fd47b3a01a03b12f0c2aa80712e34da7c019dc47c15ab908b
 
 build:
   number: 0
